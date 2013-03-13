@@ -28,11 +28,21 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="ySe-Nn-cU6"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Branch Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQP-Ta-wii">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="NGh-L5-hBu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7L8-Ag-tiG" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="gCM-Ez-Z7R"/>
-                            <constraint firstItem="7L8-Ag-tiG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="uHR-DZ-JR4"/>
+                            <constraint firstItem="bQP-Ta-wii" firstAttribute="centerX" secondItem="7L8-Ag-tiG" secondAttribute="centerX" type="default" id="NG6-KI-fGr"/>
+                            <constraint firstAttribute="bottom" secondItem="bQP-Ta-wii" secondAttribute="bottom" constant="185" id="Q6a-h0-gSC"/>
+                            <constraint firstItem="7L8-Ag-tiG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="229" id="TZ4-n1-O2T"/>
+                            <constraint firstItem="bQP-Ta-wii" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="nQb-B8-g4N"/>
                         </constraints>
                     </view>
                 </viewController>
