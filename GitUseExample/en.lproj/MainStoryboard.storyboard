@@ -36,13 +36,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-1.5" minValue="-1.5" maxValue="1.5" translatesAutoresizingMaskIntoConstraints="NO" id="4KT-ho-uHs">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="PSA-qp-947"/>
+                                </constraints>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bQP-Ta-wii" firstAttribute="centerX" secondItem="7L8-Ag-tiG" secondAttribute="centerX" type="default" id="NG6-KI-fGr"/>
                             <constraint firstAttribute="bottom" secondItem="bQP-Ta-wii" secondAttribute="bottom" constant="185" id="Q6a-h0-gSC"/>
                             <constraint firstItem="7L8-Ag-tiG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="229" id="TZ4-n1-O2T"/>
-                            <constraint firstItem="bQP-Ta-wii" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="nQb-B8-g4N"/>
+                            <constraint firstItem="4KT-ho-uHs" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Ut2-zH-fkT"/>
+                            <constraint firstItem="4KT-ho-uHs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="112" id="y6B-jE-acz"/>
+                            <constraint firstItem="4KT-ho-uHs" firstAttribute="centerX" secondItem="7L8-Ag-tiG" secondAttribute="centerX" type="default" id="yUW-lt-Qdb"/>
                         </constraints>
                     </view>
                 </viewController>
